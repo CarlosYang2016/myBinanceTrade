@@ -81,8 +81,6 @@ while True:
                 print("no enough XVG to sell.")
         elif assetXVG/(assetXVG + assetBTC) < 0.49:
             print('XVG asset rate low to : ', assetXVG/(assetXVG + assetBTC))
-            # 买入XVG
-            # 买入个数
             buyXVG = int((assetBTC - assetXVG) / (2 * float(priceXVG['price'])))
             if buyXVG > int(assetActBTC/float(buyPrice)) and assetActBTC > 0.001:
                 buyXVG = int(assetActBTC/float(buyPrice))
