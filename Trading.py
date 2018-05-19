@@ -4,6 +4,11 @@ from decimal import *
 from binance.client import Client
 from binance.exceptions import BinanceAPIException
 
+# 导入模块
+#from wxpy import *
+# 初始化机器人，扫码登陆
+#bot = Bot()
+
 viBTC = 0.3
 viXVG = 43795  # 0.3/0.00000687
 
